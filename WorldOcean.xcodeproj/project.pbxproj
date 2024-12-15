@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFFCE45A85D0367CEE71C47 /* Pods_WorldOcean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CEFB2F3C286EB394BA49C8 /* Pods_WorldOcean.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		753CCFC32D0DBB460015C5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 753CCFA42D0DBB440015C5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 753CCFAB2D0DBB440015C5FD;
+			remoteInfo = WorldOcean;
+		};
+		753CCFCD2D0DBB460015C5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 753CCFA42D0DBB440015C5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 753CCFAB2D0DBB440015C5FD;
+			remoteInfo = WorldOcean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55CEFB2F3C286EB394BA49C8 /* Pods_WorldOcean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldOcean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FF1D352B29EB345D7695FD /* Pods-WorldOcean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldOcean.release.xcconfig"; path = "Target Support Files/Pods-WorldOcean/Pods-WorldOcean.release.xcconfig"; sourceTree = "<group>"; };
+		741969CB43028E7B69E3E6AE /* Pods-WorldOcean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldOcean.debug.xcconfig"; path = "Target Support Files/Pods-WorldOcean/Pods-WorldOcean.debug.xcconfig"; sourceTree = "<group>"; };
+		753CCFAC2D0DBB440015C5FD /* WorldOcean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOcean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		753CCFC22D0DBB460015C5FD /* WorldOceanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldOceanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		753CCFCC2D0DBB460015C5FD /* WorldOceanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldOceanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		753CCFD42D0DBB460015C5FD /* Exceptions for "WorldOcean" folder in "WorldOcean" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 753CCFAB2D0DBB440015C5FD /* WorldOcean */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		753CCFAE2D0DBB440015C5FD /* WorldOcean */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				753CCFD42D0DBB460015C5FD /* Exceptions for "WorldOcean" folder in "WorldOcean" target */,
+			);
+			path = WorldOcean;
+			sourceTree = "<group>";
+		};
+		753CCFC52D0DBB460015C5FD /* WorldOceanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WorldOceanTests;
+			sourceTree = "<group>";
+		};
+		753CCFCF2D0DBB460015C5FD /* WorldOceanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WorldOceanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753CCFA92D0DBB440015C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFFCE45A85D0367CEE71C47 /* Pods_WorldOcean.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753CCFBF2D0DBB460015C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753CCFC92D0DBB460015C5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753CCFA32D0DBB440015C5FD = {
+			isa = PBXGroup;
+			children = (
+				753CCFAE2D0DBB440015C5FD /* WorldOcean */,
+				753CCFC52D0DBB460015C5FD /* WorldOceanTests */,
+				753CCFCF2D0DBB460015C5FD /* WorldOceanUITests */,
+				753CCFAD2D0DBB440015C5FD /* Products */,
+				D832D2E6D6C853D5FC66EDB6 /* Pods */,
+				BC61B274685CB76844241DE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		753CCFAD2D0DBB440015C5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753CCFAC2D0DBB440015C5FD /* WorldOcean.app */,
+				753CCFC22D0DBB460015C5FD /* WorldOceanTests.xctest */,
+				753CCFCC2D0DBB460015C5FD /* WorldOceanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC61B274685CB76844241DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55CEFB2F3C286EB394BA49C8 /* Pods_WorldOcean.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D832D2E6D6C853D5FC66EDB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				741969CB43028E7B69E3E6AE /* Pods-WorldOcean.debug.xcconfig */,
+				59FF1D352B29EB345D7695FD /* Pods-WorldOcean.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753CCFAB2D0DBB440015C5FD /* WorldOcean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753CCFD52D0DBB460015C5FD /* Build configuration list for PBXNativeTarget "WorldOcean" */;
+			buildPhases = (
+				892905E3AC44A210D5EE209B /* [CP] Check Pods Manifest.lock */,
+				753CCFA82D0DBB440015C5FD /* Sources */,
+				753CCFA92D0DBB440015C5FD /* Frameworks */,
+				753CCFAA2D0DBB440015C5FD /* Resources */,
+				93D4AA30A77324218B51ABE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				753CCFAE2D0DBB440015C5FD /* WorldOcean */,
+			);
+			name = WorldOcean;
+			productName = WorldOcean;
+			productReference = 753CCFAC2D0DBB440015C5FD /* WorldOcean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		753CCFC12D0DBB460015C5FD /* WorldOceanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753CCFDA2D0DBB460015C5FD /* Build configuration list for PBXNativeTarget "WorldOceanTests" */;
+			buildPhases = (
+				753CCFBE2D0DBB460015C5FD /* Sources */,
+				753CCFBF2D0DBB460015C5FD /* Frameworks */,
+				753CCFC02D0DBB460015C5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				753CCFC42D0DBB460015C5FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				753CCFC52D0DBB460015C5FD /* WorldOceanTests */,
+			);
+			name = WorldOceanTests;
+			productName = WorldOceanTests;
+			productReference = 753CCFC22D0DBB460015C5FD /* WorldOceanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		753CCFCB2D0DBB460015C5FD /* WorldOceanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753CCFDD2D0DBB460015C5FD /* Build configuration list for PBXNativeTarget "WorldOceanUITests" */;
+			buildPhases = (
+				753CCFC82D0DBB460015C5FD /* Sources */,
+				753CCFC92D0DBB460015C5FD /* Frameworks */,
+				753CCFCA2D0DBB460015C5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				753CCFCE2D0DBB460015C5FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				753CCFCF2D0DBB460015C5FD /* WorldOceanUITests */,
+			);
+			name = WorldOceanUITests;
+			productName = WorldOceanUITests;
+			productReference = 753CCFCC2D0DBB460015C5FD /* WorldOceanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		753CCFA42D0DBB440015C5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					753CCFAB2D0DBB440015C5FD = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					753CCFC12D0DBB460015C5FD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 753CCFAB2D0DBB440015C5FD;
+					};
+					753CCFCB2D0DBB460015C5FD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 753CCFAB2D0DBB440015C5FD;
+					};
+				};
+			};
+			buildConfigurationList = 753CCFA72D0DBB440015C5FD /* Build configuration list for PBXProject "WorldOcean" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 753CCFA32D0DBB440015C5FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 753CCFAD2D0DBB440015C5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753CCFAB2D0DBB440015C5FD /* WorldOcean */,
+				753CCFC12D0DBB460015C5FD /* WorldOceanTests */,
+				753CCFCB2D0DBB460015C5FD /* WorldOceanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753CCFAA2D0DBB440015C5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753CCFC02D0DBB460015C5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753CCFCA2D0DBB460015C5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		892905E3AC44A210D5EE209B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldOcean-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D4AA30A77324218B51ABE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldOcean/Pods-WorldOcean-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldOcean/Pods-WorldOcean-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldOcean/Pods-WorldOcean-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753CCFA82D0DBB440015C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753CCFBE2D0DBB460015C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753CCFC82D0DBB460015C5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		753CCFC42D0DBB460015C5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 753CCFAB2D0DBB440015C5FD /* WorldOcean */;
+			targetProxy = 753CCFC32D0DBB460015C5FD /* PBXContainerItemProxy */;
+		};
+		753CCFCE2D0DBB460015C5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 753CCFAB2D0DBB440015C5FD /* WorldOcean */;
+			targetProxy = 753CCFCD2D0DBB460015C5FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		753CCFD62D0DBB460015C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741969CB43028E7B69E3E6AE /* Pods-WorldOcean.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldOcean/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.WorldOcean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		753CCFD72D0DBB460015C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59FF1D352B29EB345D7695FD /* Pods-WorldOcean.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldOcean/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.WorldOcean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		753CCFD82D0DBB460015C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		753CCFD92D0DBB460015C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753CCFDB2D0DBB460015C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.WorldOceanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldOcean.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorldOcean";
+			};
+			name = Debug;
+		};
+		753CCFDC2D0DBB460015C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.WorldOceanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldOcean.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorldOcean";
+			};
+			name = Release;
+		};
+		753CCFDE2D0DBB460015C5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.WorldOceanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldOcean;
+			};
+			name = Debug;
+		};
+		753CCFDF2D0DBB460015C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.WorldOceanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldOcean;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753CCFA72D0DBB440015C5FD /* Build configuration list for PBXProject "WorldOcean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753CCFD82D0DBB460015C5FD /* Debug */,
+				753CCFD92D0DBB460015C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753CCFD52D0DBB460015C5FD /* Build configuration list for PBXNativeTarget "WorldOcean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753CCFD62D0DBB460015C5FD /* Debug */,
+				753CCFD72D0DBB460015C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753CCFDA2D0DBB460015C5FD /* Build configuration list for PBXNativeTarget "WorldOceanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753CCFDB2D0DBB460015C5FD /* Debug */,
+				753CCFDC2D0DBB460015C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753CCFDD2D0DBB460015C5FD /* Build configuration list for PBXNativeTarget "WorldOceanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753CCFDE2D0DBB460015C5FD /* Debug */,
+				753CCFDF2D0DBB460015C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 753CCFA42D0DBB440015C5FD /* Project object */;
+}
